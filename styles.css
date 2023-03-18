@@ -42,8 +42,8 @@ body {
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
-    width: 720px;
-    height: 720px;
+    width: 680px;
+    height: 680px;
     border: solid #090707 4px;
     border-radius: 10px;   
 }
