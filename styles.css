@@ -2,12 +2,19 @@ body {
     display: flex; 
     flex-direction: column;
     align-items: center;
+    background-color: #30A9DE;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 
 #title {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 54px;
+    font-weight: 700;
+    color: #E53A40;
+    border: solid 2px #090707;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #EFDC05;
 }
 
 #btnContainer {
@@ -17,11 +24,20 @@ body {
 
 #btnClear,
 #btnResize {
-    margin-bottom: 20px;
+    color: #E53A40;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px;
+    background-color: #EFDC05;
+    border-color: #090707;
+    border-radius: 10px;
+    padding: 10px;
+
 }
 
 #container {
-
+    background-color: #E53A40;
+    border-radius: 10px;
 }
 
 #gridContainer {
@@ -30,7 +46,8 @@ body {
     grid-template-rows: repeat(16, 1fr);
     width: 960px;
     height: 960px;
-    border: solid black 2px;
+    border: solid #090707 4px;
+    border-radius: 10px;
 
     
 }
