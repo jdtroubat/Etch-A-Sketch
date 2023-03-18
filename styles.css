@@ -18,8 +18,7 @@ body {
 }
 
 #btnContainer {
-    display: flex;
-    
+    display: flex;   
 }
 
 #btnClear,
@@ -32,7 +31,6 @@ body {
     border-color: #090707;
     border-radius: 10px;
     padding: 10px;
-
 }
 
 #container {
@@ -47,9 +45,7 @@ body {
     width: 960px;
     height: 960px;
     border: solid #090707 4px;
-    border-radius: 10px;
-
-    
+    border-radius: 10px;   
 }
 
 #grid-cell {
