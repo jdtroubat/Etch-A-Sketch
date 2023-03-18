@@ -53,3 +53,12 @@ body {
     height: 100%;
     border: solid black 1px;
 }
+
+#footer {
+    font-size: 10px;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
